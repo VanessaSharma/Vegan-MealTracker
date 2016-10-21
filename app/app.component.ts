@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Meal } from './meal.model';
 
 @Component({
-  selector: 'my-app',
+  selector: 'vegan-mealtracker',
   template: `
   <div class="container">
     <h1>Krishna's Vegan Meal Tracker</h1>

@@ -1,7 +1,7 @@
 {
   "name": "vegan-mealtracker-app",
   "description": "vegan meal tracker app",
-  "main": "gulpfile.js",
+  "main": "index.html",
   "authors": [
     "Vanessa Palacios Sharma"
   ],

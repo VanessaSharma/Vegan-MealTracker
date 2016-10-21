@@ -1,5 +1,4 @@
 ////////////////////// DEPENDENCIES AND VARIABLES //////////////////////
-
 var gulp = require('gulp');
 
 // used for concatenating/minifying bower files and other js/css
@@ -31,10 +30,7 @@ var shell = require('gulp-shell');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
-
-
 ////////////////////// TYPESCRIPT //////////////////////
-
 // clean task
 gulp.task('tsClean', function(){
   return del(['app/*.js', 'app/*.js.map']);
@@ -86,8 +82,7 @@ gulp.task('sassBuild', function() {
 });
 
 ////////////////////// SERVER //////////////////////
-
-gulp.task('serve', function() {
+gulp.task('serve', ['build'], function() {
   browserSync.init({
     server: {
       baseDir: "./",
@@ -117,7 +112,6 @@ gulp.task('tsBuild', ['ts'], function(){
 });
 
 ////////////////////// GLOBAL BUILD TASK //////////////////////
-
 // global build task with individual clean tasks as dependencies.
 gulp.task('build', ['ts'], function(){
   // we can use the buildProduction environment variable here later.
