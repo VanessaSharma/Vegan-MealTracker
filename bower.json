@@ -1,0 +1,29 @@
+{
+  "name": "vegan-mealtracker-app",
+  "description": "vegan meal tracker app",
+  "main": "gulpfile.js",
+  "authors": [
+    "Vanessa Palacios Sharma"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "js",
+    "typescript",
+    "app",
+    "meal",
+    "tracker"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
