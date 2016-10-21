@@ -1,25 +1,19 @@
-h1 {
+h4 {
   color: #000000;
-  margin-top: 60px;
+  margin-top: 30px;
 }
-
-ul.selected {
-  list-style-image: url("/images/Pencil.png");
-}
-.healthy {
+.low {
   color: #009933;
 }
-.unhealthy {
+.high {
   color: #cd1414;
 }
-
 .meal-form {
   font-size: 30px;
   margin-top: 20px;
   margin-bottom: 10px;
   line-height: 1.1;
 }
-
 .add-button {
   margin-bottom: 10px;
   margin-left: 10px;
@@ -37,7 +31,7 @@ img.health {
   height: 50px;
 }
 
-meal-display {
+select {
   line-height: 25px;
 }
 
