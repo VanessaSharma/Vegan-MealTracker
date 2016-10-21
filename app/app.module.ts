@@ -5,7 +5,6 @@ import { AppComponent }   from './app.component';
 import { MealListComponent } from './meal-list.component';
 import { EditMealComponent } from './edit-meal.component';
 import { NewMealComponent } from './new-meal.component';
-import { MealComponent } from './meal.component';
 import { CaloriesPipe } from './calories.pipe';
 
 
@@ -19,7 +18,6 @@ import { CaloriesPipe } from './calories.pipe';
     MealListComponent,
     EditMealComponent,
     NewMealComponent,
-    MealComponent,
     CaloriesPipe,
    ],
   bootstrap:    [ AppComponent ]
