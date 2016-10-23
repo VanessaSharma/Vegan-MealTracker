@@ -28,9 +28,9 @@ No known bugs as of now.
 ------
 
 This application will allow users to input their daily meals, including:
-* 1. Name of meal
-* 2. Total calories
-* 3. Details (notes) 
+* Name of meal
+* Total calories
+* Details (notes) 
 
 ### Support and Contact Details
 ------
