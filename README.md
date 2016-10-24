@@ -4,7 +4,7 @@
 ![screenshot of project running](pic here)
 
 
-Input your daily meals along with the calories and details.
+Input your daily meals along with the calories and details. Filter for all meals, high calorie meals, and low calorie meals.
 <br/>
 
 ##Setup/Installation Instructions
