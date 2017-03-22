@@ -4,6 +4,7 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'meal-list',
   template: `
+<div class=jumbotron></div>
   <div class="container">
     <div class="row">
       <div class="col-xs-8">

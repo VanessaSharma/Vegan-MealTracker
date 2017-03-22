@@ -1,8 +1,21 @@
+h1{
+  font-family:'Advent Pro', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.jumbotron{
+  background: url("https://cdn.pixabay.com/photo/2012/10/12/17/17/soap-61089_960_720.jpg");
+  background-position: center;
+  max-width: 100%;
+  max-height: 80%;
+}
+
 h4 {
   color: #000000;
   margin-top: 30px;
 }
-.low {
+.low{
   color: #009933;
 }
 .high {
